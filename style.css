@@ -15,28 +15,23 @@
 }
 
 .header {
-	margin: 0 0 0 1000px;
 	display: inline-block;
+	top: 0;
+	width: 100%;
 }
 
-.gmail-link {
-	text-align: left;
-	margin: 0 5px;
+.header ul {
+	list-style-type: none;
+	float: right;
+	text-align: right;
+	padding: 5px;
+	margin: 10px;
 }
 
-.images-link {
-	text-align: center;
-	margin: 0 5px;
-}
-
-.app-button {
-	text-align: left;
-	margin: 0 5px;
-}
-
-.notification-button {
-	text-align: left;
-	margin: 0 0 0 5px;
+.header li {
+	float:left;
+	display: block;
+	margin-right: 15px;
 }
 
 .search-box {
