@@ -1,3 +1,7 @@
+* {
+	font-family: "Arial",sans-serif;
+}
+
 .logo {
 	display: flex;
 	justify-content: center;
@@ -8,12 +12,10 @@
 	position: absolute;
 	margin: 75px 0 0 110px;
 	color: #2f7fa0;
-	font-family: "Arial";
 }
 
 .header {
 	margin: 0 0 0 1000px;
-	font-family: "Arial";
 	display: inline-block;
 }
 
@@ -39,12 +41,37 @@
 
 .search-box {
 	position: absolute;
-	margin: 100px 0 0 0;
+	margin: 110px 0 0 0;
 }
 
 input {
-	width: 250px;
-	height: 1.5em;
+	width: 500px;
+	height: 35px;
 	box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.54);
+	border: none;
 }
 
+.buttons {
+	position: absolute;
+	margin: 180px 0 0 0;
+}
+
+button {
+	border: none;
+	background-color: #efefef;
+	font-weight: bold;
+	color: #898989;
+	height: 35px;
+	width: 130px;
+	margin: 0 5px 0 5px;
+}
+
+p {
+	position: absolute;
+	font-size: 13px;
+	margin: 250px 0 0 0;
+}
+
+.footer {
+	float: left;
+}
